@@ -30,7 +30,7 @@ reMarked = function(opts) {
 		hash_lnks:	false,			// anchors w/hash hrefs as links
 		br_only:	false,			// avoid using "  " as line break indicator
 		col_pre:	"col ",			// column prefix to use when creating missing headers for tables
-		nbsp_spc:	true,			// convert &nbsp; entities in html to regular spaces
+		nbsp_spc:	false,			// convert &nbsp; entities in html to regular spaces
 		span_tags:	true,			// output spans (ambiguous) using html tags
 		div_tags:	true,			// output divs (ambiguous) using html tags
 	//	comp_style: false,			// use getComputedStyle instead of hardcoded tag list to discern block/inline
