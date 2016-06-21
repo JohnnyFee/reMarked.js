@@ -489,6 +489,10 @@ reMarked = function(opts) {
 				var kids = this.e.alt,
 					src = this.e.getAttribute("src");
 
+        if(cfg.full_link){
+          src = this.e.src;
+        }
+
 				if (cfg.link_list)
 					return "![" + kids + "] [" + (this.lnkid + 1) + "]";
 
